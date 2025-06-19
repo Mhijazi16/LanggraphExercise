@@ -21,4 +21,3 @@ graph.add_edge("node", END)
 runner = graph.compile()
 result = runner.invoke({"name": "Bob"})
 print(result)
-
